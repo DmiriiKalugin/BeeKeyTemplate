@@ -92,3 +92,12 @@ hr {
   margin-right: -23%;
   padding: 0;
 }
+
+.brand-title {
+  color: #16b572;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+}
