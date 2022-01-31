@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.timer {
+  padding: 0.7%;
+  background-color: #16b572;
+  margin: -0.395%;
+}
+
+.timer-title {
+  font-weight: 700;
+  line-height: normal;
+  font-size: 20px;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.btn-buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font: 500 15px/ 16px Roboto, Arial, Helvetica, sans-serif;
+  border: none;
+  background: #89e55d;
+  border-radius: 30px;
+  box-shadow: none;
+  outline: none;
+  transition: all 0.2s;
+  padding: 17px 23px;
+  background-clip: border-box;
+  cursor: pointer;
+  text-decoration: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.btn-icon {
+  margin-left: 25px;
+}
+
+.btn-close {
+  width: 35px;
+  height: 35px;
+  border: none;
+  box-shadow: inset 0 0 0 2px rgb(255 255 255 / 10%);
+  background: transparent;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+header {
+  margin-top: 15px;
+}
+
+.sin-in {
+  border: none;
+  background: transparent;
+}
+
+.sin-in-icon {
+  margin-left: 10px;
+}
+
+.sin-in-title {
+  color: #16b572;
+  font-size: 15px;
+}
+
+.top-panel {
+  margin-left: -4%;
+}
+
+.top-panel-item {
+  padding: 0;
+  list-style: none;
+  padding-right: 10px;
+}
+
+.top-panel-link {
+  text-decoration: none;
+  color: #000;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e5e2e2;
+  margin-left: -23%;
+  margin-right: -23%;
+  padding: 0;
+}
