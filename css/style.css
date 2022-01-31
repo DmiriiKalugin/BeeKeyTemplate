@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: #f4f8fb;
 }
 
 .timer {
@@ -54,6 +55,13 @@ header {
   margin-top: 15px;
 }
 
+.bg-white {
+  background: #fff;
+  padding-bottom: 14px;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+
 .sin-in {
   border: none;
   background: transparent;
@@ -69,6 +77,7 @@ header {
 }
 
 .top-panel {
+  padding-top: 0px;
   margin-left: -4%;
 }
 
@@ -79,8 +88,17 @@ header {
 }
 
 .top-panel-link {
+  font-weight: bold;
+  text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  /* text-shadow: 1px 2px 0px #16b572; */
+  font-size: 15px;
+}
+
+.top-panel-link:hover {
+  color: #16b572;
+  text-shadow: 1px 1px 1px black;
 }
 
 hr {
@@ -95,6 +113,7 @@ hr {
 
 .contact-panel {
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .brand-title {
